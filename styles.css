@@ -213,17 +213,6 @@ main { flex: 1; }
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  top: -180px;
-  right: -180px;
-  width: 520px;
-  height: 520px;
-  border-radius: 50%;
-  border: 52px solid rgba(200, 162, 255, 0.06);
-  pointer-events: none;
-}
 
 .hero__inner {
   max-width: 900px;
